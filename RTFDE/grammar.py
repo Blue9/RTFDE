@@ -37,7 +37,7 @@ GRAMMAR = {
     "_LBRACE": r'"{"',
     "_RBRACE": r'"}"',
     "BACKSLASH": r'"\\"',
-    "start": r"_LBRACE document _RBRACE",
+    "start": r"_LBRACE document _RBRACE?",
     "document": r"""(CONTROLWORD
                     | control_symbol
                     | string
